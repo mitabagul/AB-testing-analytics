@@ -18,3 +18,11 @@ Conversion Rate = Converted Users / Total Users
 ## Hypothesis
 - **Null Hypothesis (H₀):** There is no difference in conversion rate between control and treatment.
 - **Alternative Hypothesis (H₁):** The treatment group has a higher conversion rate than the control group.
+
+## Dataset
+The dataset contains user-level experiment data with group assignment and conversion outcome.
+
+**Columns**
+- `user_id`: unique user identifier
+- `group_name`: control or treatment
+- `converted`: 1 if user converted, 0 otherwise
