@@ -26,3 +26,11 @@ The dataset contains user-level experiment data with group assignment and conver
 - `user_id`: unique user identifier
 - `group_name`: control or treatment
 - `converted`: 1 if user converted, 0 otherwise
+
+## Metrics Computation
+Key experiment metrics are computed using SQL.
+
+Metrics include:
+- Total users per group
+- Converted users per group
+- Conversion rate per group
